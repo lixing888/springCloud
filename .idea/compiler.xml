@@ -10,12 +10,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="servicehi" />
+        <module name="serviceribbon" />
         <module name="springcloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka" target="1.8" />
       <module name="servicehi" target="1.8" />
+      <module name="serviceribbon" target="1.8" />
       <module name="springcloud" target="1.5" />
     </bytecodeTargetLevel>
   </component>

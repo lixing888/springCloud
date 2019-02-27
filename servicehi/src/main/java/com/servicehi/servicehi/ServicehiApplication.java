@@ -20,9 +20,9 @@ public class ServicehiApplication {
 	@Value("${server.port}")
 	String port;
 
-	@RequestMapping("/hi")
+	@RequestMapping("/hi")// http://127.0.0.1:8763/hi?name=fys
 	public String home(@RequestParam String name){
-		return "hello My mane is" + name + ",I am from port:" + port;
+		return "hello My mane is " + name + ",I am from port:" + port;
 	}
 
 
