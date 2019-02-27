@@ -16,7 +16,7 @@ public class HelloService {
     public String hiService(String name){
         //return restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, String.class);
 
-        Object forObject = restTemplate.getForObject("http://127.0.0.1:8763/hi?name=" + name, Object.class);
+        Object forObject = restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, Object.class);
         return forObject.toString();
 
     }
